@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67BF200B1E1153820000C34B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF200A1E1153820000C34B /* main.m */; };
+		67BF200E1E1153820000C34B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF200D1E1153820000C34B /* AppDelegate.m */; };
+		67BF20111E1153820000C34B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF20101E1153820000C34B /* ViewController.m */; };
+		67BF20141E1153820000C34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BF20121E1153820000C34B /* Main.storyboard */; };
+		67BF20161E1153820000C34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BF20151E1153820000C34B /* Assets.xcassets */; };
+		67BF20191E1153820000C34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BF20171E1153820000C34B /* LaunchScreen.storyboard */; };
+		67BF20241E1153820000C34B /* JSPatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF20231E1153820000C34B /* JSPatchDemoTests.m */; };
+		67BF202F1E1153830000C34B /* JSPatchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF202E1E1153830000C34B /* JSPatchDemoUITests.m */; };
+		67BF20421E1154CC0000C34B /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF20401E1154CC0000C34B /* JPEngine.m */; };
+		67BF20431E1154CC0000C34B /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 67BF20411E1154CC0000C34B /* JSPatch.js */; };
+		67BF20461E11556D0000C34B /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 67BF20451E11556D0000C34B /* demo.js */; };
+		67BF20481E1160380000C34B /* JSTableViewController.js in Resources */ = {isa = PBXBuildFile; fileRef = 67BF20471E1160380000C34B /* JSTableViewController.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67BF20201E1153820000C34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BF1FFE1E1153820000C34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BF20051E1153820000C34B;
+			remoteInfo = JSPatchDemo;
+		};
+		67BF202B1E1153820000C34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BF1FFE1E1153820000C34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BF20051E1153820000C34B;
+			remoteInfo = JSPatchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67BF20061E1153820000C34B /* JSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BF200A1E1153820000C34B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67BF200C1E1153820000C34B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67BF200D1E1153820000C34B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67BF200F1E1153820000C34B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67BF20101E1153820000C34B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67BF20131E1153820000C34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67BF20151E1153820000C34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BF20181E1153820000C34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67BF201A1E1153820000C34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BF201F1E1153820000C34B /* JSPatchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BF20231E1153820000C34B /* JSPatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchDemoTests.m; sourceTree = "<group>"; };
+		67BF20251E1153820000C34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BF202A1E1153820000C34B /* JSPatchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BF202E1E1153830000C34B /* JSPatchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchDemoUITests.m; sourceTree = "<group>"; };
+		67BF20301E1153830000C34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BF203F1E1154CC0000C34B /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		67BF20401E1154CC0000C34B /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		67BF20411E1154CC0000C34B /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		67BF20451E11556D0000C34B /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		67BF20471E1160380000C34B /* JSTableViewController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSTableViewController.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BF20031E1153820000C34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BF201C1E1153820000C34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BF20271E1153820000C34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BF1FFD1E1153820000C34B = {
+			isa = PBXGroup;
+			children = (
+				67BF20081E1153820000C34B /* JSPatchDemo */,
+				67BF20221E1153820000C34B /* JSPatchDemoTests */,
+				67BF202D1E1153820000C34B /* JSPatchDemoUITests */,
+				67BF20071E1153820000C34B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BF20071E1153820000C34B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BF20061E1153820000C34B /* JSPatchDemo.app */,
+				67BF201F1E1153820000C34B /* JSPatchDemoTests.xctest */,
+				67BF202A1E1153820000C34B /* JSPatchDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BF20081E1153820000C34B /* JSPatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				67BF203C1E1153F30000C34B /* Classes */,
+				67BF200C1E1153820000C34B /* AppDelegate.h */,
+				67BF200D1E1153820000C34B /* AppDelegate.m */,
+				67BF200F1E1153820000C34B /* ViewController.h */,
+				67BF20101E1153820000C34B /* ViewController.m */,
+				67BF20121E1153820000C34B /* Main.storyboard */,
+				67BF20151E1153820000C34B /* Assets.xcassets */,
+				67BF20171E1153820000C34B /* LaunchScreen.storyboard */,
+				67BF201A1E1153820000C34B /* Info.plist */,
+				67BF20091E1153820000C34B /* Supporting Files */,
+			);
+			path = JSPatchDemo;
+			sourceTree = "<group>";
+		};
+		67BF20091E1153820000C34B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67BF200A1E1153820000C34B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67BF20221E1153820000C34B /* JSPatchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BF20231E1153820000C34B /* JSPatchDemoTests.m */,
+				67BF20251E1153820000C34B /* Info.plist */,
+			);
+			path = JSPatchDemoTests;
+			sourceTree = "<group>";
+		};
+		67BF202D1E1153820000C34B /* JSPatchDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67BF202E1E1153830000C34B /* JSPatchDemoUITests.m */,
+				67BF20301E1153830000C34B /* Info.plist */,
+			);
+			path = JSPatchDemoUITests;
+			sourceTree = "<group>";
+		};
+		67BF203C1E1153F30000C34B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67BF20441E11553C0000C34B /* JSFile */,
+				67BF203D1E1154AB0000C34B /* vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		67BF203D1E1154AB0000C34B /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				67BF203E1E1154CC0000C34B /* JSPatch */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		67BF203E1E1154CC0000C34B /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				67BF203F1E1154CC0000C34B /* JPEngine.h */,
+				67BF20401E1154CC0000C34B /* JPEngine.m */,
+				67BF20411E1154CC0000C34B /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		67BF20441E11553C0000C34B /* JSFile */ = {
+			isa = PBXGroup;
+			children = (
+				67BF20451E11556D0000C34B /* demo.js */,
+				67BF20471E1160380000C34B /* JSTableViewController.js */,
+			);
+			path = JSFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BF20051E1153820000C34B /* JSPatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BF20331E1153830000C34B /* Build configuration list for PBXNativeTarget "JSPatchDemo" */;
+			buildPhases = (
+				67BF20021E1153820000C34B /* Sources */,
+				67BF20031E1153820000C34B /* Frameworks */,
+				67BF20041E1153820000C34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPatchDemo;
+			productName = JSPatchDemo;
+			productReference = 67BF20061E1153820000C34B /* JSPatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67BF201E1E1153820000C34B /* JSPatchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BF20361E1153830000C34B /* Build configuration list for PBXNativeTarget "JSPatchDemoTests" */;
+			buildPhases = (
+				67BF201B1E1153820000C34B /* Sources */,
+				67BF201C1E1153820000C34B /* Frameworks */,
+				67BF201D1E1153820000C34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BF20211E1153820000C34B /* PBXTargetDependency */,
+			);
+			name = JSPatchDemoTests;
+			productName = JSPatchDemoTests;
+			productReference = 67BF201F1E1153820000C34B /* JSPatchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67BF20291E1153820000C34B /* JSPatchDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BF20391E1153830000C34B /* Build configuration list for PBXNativeTarget "JSPatchDemoUITests" */;
+			buildPhases = (
+				67BF20261E1153820000C34B /* Sources */,
+				67BF20271E1153820000C34B /* Frameworks */,
+				67BF20281E1153820000C34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BF202C1E1153820000C34B /* PBXTargetDependency */,
+			);
+			name = JSPatchDemoUITests;
+			productName = JSPatchDemoUITests;
+			productReference = 67BF202A1E1153820000C34B /* JSPatchDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BF1FFE1E1153820000C34B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王燊";
+				TargetAttributes = {
+					67BF20051E1153820000C34B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					67BF201E1E1153820000C34B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67BF20051E1153820000C34B;
+					};
+					67BF20291E1153820000C34B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67BF20051E1153820000C34B;
+					};
+				};
+			};
+			buildConfigurationList = 67BF20011E1153820000C34B /* Build configuration list for PBXProject "JSPatchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BF1FFD1E1153820000C34B;
+			productRefGroup = 67BF20071E1153820000C34B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BF20051E1153820000C34B /* JSPatchDemo */,
+				67BF201E1E1153820000C34B /* JSPatchDemoTests */,
+				67BF20291E1153820000C34B /* JSPatchDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BF20041E1153820000C34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BF20461E11556D0000C34B /* demo.js in Resources */,
+				67BF20481E1160380000C34B /* JSTableViewController.js in Resources */,
+				67BF20191E1153820000C34B /* LaunchScreen.storyboard in Resources */,
+				67BF20161E1153820000C34B /* Assets.xcassets in Resources */,
+				67BF20431E1154CC0000C34B /* JSPatch.js in Resources */,
+				67BF20141E1153820000C34B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BF201D1E1153820000C34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BF20281E1153820000C34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BF20021E1153820000C34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BF20111E1153820000C34B /* ViewController.m in Sources */,
+				67BF20421E1154CC0000C34B /* JPEngine.m in Sources */,
+				67BF200E1E1153820000C34B /* AppDelegate.m in Sources */,
+				67BF200B1E1153820000C34B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BF201B1E1153820000C34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BF20241E1153820000C34B /* JSPatchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BF20261E1153820000C34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BF202F1E1153830000C34B /* JSPatchDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67BF20211E1153820000C34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BF20051E1153820000C34B /* JSPatchDemo */;
+			targetProxy = 67BF20201E1153820000C34B /* PBXContainerItemProxy */;
+		};
+		67BF202C1E1153820000C34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BF20051E1153820000C34B /* JSPatchDemo */;
+			targetProxy = 67BF202B1E1153820000C34B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67BF20121E1153820000C34B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BF20131E1153820000C34B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67BF20171E1153820000C34B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BF20181E1153820000C34B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67BF20311E1153830000C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BF20321E1153830000C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BF20341E1153830000C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WS.JSPatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67BF20351E1153830000C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WS.JSPatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67BF20371E1153830000C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPatchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WS.JSPatchDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchDemo.app/JSPatchDemo";
+			};
+			name = Debug;
+		};
+		67BF20381E1153830000C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPatchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WS.JSPatchDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchDemo.app/JSPatchDemo";
+			};
+			name = Release;
+		};
+		67BF203A1E1153830000C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPatchDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WS.JSPatchDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPatchDemo;
+			};
+			name = Debug;
+		};
+		67BF203B1E1153830000C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPatchDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WS.JSPatchDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPatchDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BF20011E1153820000C34B /* Build configuration list for PBXProject "JSPatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BF20311E1153830000C34B /* Debug */,
+				67BF20321E1153830000C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BF20331E1153830000C34B /* Build configuration list for PBXNativeTarget "JSPatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BF20341E1153830000C34B /* Debug */,
+				67BF20351E1153830000C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BF20361E1153830000C34B /* Build configuration list for PBXNativeTarget "JSPatchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BF20371E1153830000C34B /* Debug */,
+				67BF20381E1153830000C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BF20391E1153830000C34B /* Build configuration list for PBXNativeTarget "JSPatchDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BF203A1E1153830000C34B /* Debug */,
+				67BF203B1E1153830000C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BF1FFE1E1153820000C34B /* Project object */;
+}
